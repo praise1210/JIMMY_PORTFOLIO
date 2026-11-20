@@ -1,0 +1,32 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 100 100">
+
+    <!-- BLACK BACKGROUND -->
+    <rect width="100"
+          height="100"
+          rx="22"
+          fill="#080808"/>
+
+    <!-- GOLD BORDER -->
+    <rect x="3"
+          y="3"
+          width="94"
+          height="94"
+          rx="20"
+          fill="none"
+          stroke="#d6a84f"
+          stroke-width="3"/>
+
+    <!-- JJ INITIALS -->
+    <text x="50"
+          y="66"
+          text-anchor="middle"
+          font-family="Arial, sans-serif"
+          font-size="43"
+          font-weight="bold"
+          fill="#d6a84f">
+        JJ
+    </text>
+
+</svg>

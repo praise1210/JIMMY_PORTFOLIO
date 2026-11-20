@@ -1,0 +1,859 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Jimmy Jarez - Computer Science student, Frontend Engineer, Full-Stack Developer, Graphic Designer and AI Enthusiast.">
+
+    <meta name="author" content="Jimmy Jarez">
+
+    <title>Jimmy Jarez | Software Developer & Graphic Designer</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FONT AWESOME ICONS -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- WEBSITE FAVICON -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+</head>
+
+<body>
+
+    <!-- ==========================================
+         JIMMY JAREZ ANIMATED BACKGROUND
+    =========================================== -->
+
+    <div class="background-experience">
+
+        <video
+            class="background-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="auto">
+
+            <source src="assets/videos/coding-background.mp4"
+                type="video/mp4">
+
+        </video>
+
+        <div class="background-slideshow">
+
+            <img src="assets/images/coding-1.jpg"
+                class="background-image active"
+                alt="Developer working at computer">
+
+            <img src="assets/images/coding-2.jpg"
+                class="background-image"
+                alt="Hands typing on keyboard">
+
+            <img src="assets/images/coding-3.jpg"
+                class="background-image"
+                alt="Programmer working">
+
+        </div>
+
+        <!-- FLOATING PROGRAMMING SYMBOLS -->
+
+        <div class="floating-code">
+
+            <span>{ }</span>
+            <span>&lt;/&gt;</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JS</span>
+            <span>Python</span>
+            <span>01</span>
+            <span>;</span>
+            <span>( )</span>
+            <span>API</span>
+
+        </div>
+
+        <div class="background-overlay"></div>
+
+    </div>
+
+
+    <!-- ==========================================
+         LOADING SCREEN
+    =========================================== -->
+
+    <div id="preloader" class="preloader">
+
+        <div class="loader-content">
+
+            <div class="loader-logo">JJ</div>
+
+            <h2>JIMMY JAREZ</h2>
+
+            <p>LOADING EXPERIENCE</p>
+
+            <div class="loader-bar">
+                <span></span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ==========================================
+         1. NAVIGATION BAR
+    =========================================== -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                JIMMY<span>JAREZ.</span>
+            </a>
+
+            <button class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="nav-links"
+                type="button">
+
+                <i class="fas fa-bars"></i>
+
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#jimmy-graphix">Jimmy Graphix</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <a href="#contact" class="nav-button">
+                Let's Talk
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- ==========================================
+             2. HERO SECTION
+        =========================================== -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="intro">
+                    WELCOME TO MY DIGITAL SPACE
+                </p>
+
+                <h1>
+                    Jimmy <span>Jarez.</span>
+                </h1>
+
+                <h2 class="animated-headline">
+
+                    I AM
+
+                    <span class="typing-text">
+                        a Frontend Engineer
+                    </span>
+
+                    <span class="typing-cursor" aria-hidden="true">|</span>
+
+                </h2>
+
+                <p class="hero-description">
+
+                    I'm a Computer Science student, aspiring software
+                    engineer and creative graphic designer passionate
+                    about building beautiful, functional and intelligent
+                    digital experiences.
+
+                    I combine software development, graphic design
+                    and artificial intelligence to turn ideas into
+                    meaningful digital solutions.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="primary-btn">
+                        View My Work
+                    </a>
+
+                    <a href="#contact" class="secondary-btn">
+                        Contact Me
+                    </a>
+
+                </div>
+
+                <!-- CV DOWNLOAD -->
+
+                <div class="hero-buttons">
+
+                    <a href="documents/my-cv.pdf"
+                        class="secondary-btn"
+                        download="Jimmy-Jarez-CV.pdf">
+
+                        <i class="fas fa-download"></i>
+                        Download My CV
+
+                    </a>
+
+                </div>
+
+                <div class="social-links">
+
+                    <a href="https://github.com/praise1210"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <i class="fab fa-github"></i>
+                        GitHub
+
+                    </a>
+
+                    <a href="https://www.linkedin.com/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROFILE CARD -->
+
+            <div class="hero-visual">
+
+                <div class="profile-card">
+
+                    <div class="profile-circle">
+                        JJ
+                    </div>
+
+                    <h3>Jimmy Jarez</h3>
+
+                    <p>Software Developer & Graphic Designer</p>
+
+                    <span class="status">
+                        <i class="fas fa-circle"></i>
+                        Passionate About Technology & Creativity
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             3. SPECIALTY CARDS
+        =========================================== -->
+
+        <section class="specialties">
+
+            <!-- FRONTEND CARD -->
+
+            <div class="specialty-card">
+
+                <div class="specialty-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+
+                <div class="specialty-info">
+
+                    <span class="specialty-label">
+                        MY SPECIALTY
+                    </span>
+
+                    <h3>Frontend Engineer</h3>
+
+                    <p>
+                        I build responsive, interactive and visually
+                        appealing websites with a focus on user experience,
+                        clean interfaces and modern web technologies.
+                    </p>
+
+                </div>
+
+                <div class="tech-icons">
+
+                    <i class="fab fa-html5" title="HTML5"></i>
+                    <i class="fab fa-css3-alt" title="CSS3"></i>
+                    <i class="fab fa-js" title="JavaScript"></i>
+
+                </div>
+
+            </div>
+
+
+            <!-- FULL-STACK CARD -->
+
+            <div class="specialty-card fullstack-card">
+
+                <div class="specialty-icon">
+                    <i class="fas fa-layer-group"></i>
+                </div>
+
+                <div class="specialty-info">
+
+                    <span class="specialty-label">
+                        ALSO EXPLORING
+                    </span>
+
+                    <h3>Full-Stack Developer</h3>
+
+                    <p>
+                        I work with backend technologies, APIs,
+                        databases and authentication systems to
+                        build complete web applications.
+                    </p>
+
+                </div>
+
+                <div class="tech-icons">
+
+                    <i class="fab fa-python" title="Python"></i>
+                    <i class="fas fa-server" title="Backend Development"></i>
+                    <i class="fas fa-database" title="Databases"></i>
+
+                </div>
+
+            </div>
+
+
+            <!-- GRAPHIC DESIGN CARD -->
+
+            <div class="specialty-card">
+
+                <div class="specialty-icon">
+                    <i class="fas fa-pen-nib"></i>
+                </div>
+
+                <div class="specialty-info">
+
+                    <span class="specialty-label">
+                        MY CREATIVE SIDE
+                    </span>
+
+                    <h3>Graphic Designer</h3>
+
+                    <p>
+                        I create visually appealing designs including
+                        flyers, logos, branding materials, social media
+                        graphics, stickers and promotional designs.
+                    </p>
+
+                </div>
+
+                <div class="tech-icons">
+
+                    <i class="fas fa-palette" title="Graphic Design"></i>
+                    <i class="fas fa-image" title="Visual Design"></i>
+                    <i class="fas fa-pen-nib" title="Creative Design"></i>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             4. ABOUT SECTION
+        =========================================== -->
+
+        <section class="section" id="about">
+
+            <p class="section-label">
+                GET TO KNOW ME
+            </p>
+
+            <h2>
+                About <span>Me</span>
+            </h2>
+
+            <p>
+
+                My name is Jimmy Jarez. I'm a Computer Science student
+                with a strong interest in software development,
+                graphic design and emerging technologies.
+
+                I enjoy learning how technology works and using that
+                knowledge to create useful digital solutions.
+
+                My interests include frontend engineering, backend
+                development, AI-powered applications and graphic design.
+
+                Beyond writing code, I enjoy bringing creative ideas
+                to life through visual designs, branding, flyers,
+                logos and other digital graphics.
+
+                I'm continuously improving my skills, building projects
+                and exploring new technologies to become a better
+                developer and creative professional.
+
+            </p>
+
+        </section>
+
+
+        <!-- ==========================================
+             5. SKILLS SECTION
+        =========================================== -->
+
+        <section class="section" id="skills">
+
+            <p class="section-label">
+                WHAT I WORK WITH
+            </p>
+
+            <h2>
+                My <span>Skills</span>
+            </h2>
+
+            <p>
+                Technologies, creative skills and tools I use
+                to build digital solutions.
+            </p>
+
+            <div class="skills-grid">
+
+                <div class="skill">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                </div>
+
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                </div>
+
+                <div class="skill">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+
+                <div class="skill">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+
+                <div class="skill">
+                    <i class="fas fa-bolt"></i>
+                    <h3>FastAPI</h3>
+                </div>
+
+                <div class="skill">
+                    <i class="fas fa-fire"></i>
+                    <h3>Firebase</h3>
+                </div>
+
+                <div class="skill">
+                    <i class="fab fa-git-alt"></i>
+                    <h3>Git & GitHub</h3>
+                </div>
+
+                <div class="skill">
+                    <i class="fas fa-robot"></i>
+                    <h3>AI Integration</h3>
+                </div>
+
+                <div class="skill">
+                    <i class="fas fa-pen-nib"></i>
+                    <h3>Graphic Design</h3>
+                </div>
+
+                <div class="skill">
+                    <i class="fas fa-palette"></i>
+                    <h3>Visual Branding</h3>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             6. SOFTWARE PROJECTS SECTION
+        =========================================== -->
+
+        <section class="section" id="projects">
+
+            <p class="section-label">
+                WHAT I'VE BUILT
+            </p>
+
+            <h2>
+                Featured <span>Projects</span>
+            </h2>
+
+            <p>
+                A selection of projects I'm building as I continue
+                developing my software engineering skills.
+            </p>
+
+
+            <!-- JIMMY AI PROJECT -->
+
+            <div class="project-card">
+
+                <h3>
+                    <i class="fas fa-robot"></i>
+                    Jimmy AI
+                </h3>
+
+                <p>
+                    Jimmy AI is an AI-powered web application that allows
+                    users to ask questions and receive intelligent
+                    AI-generated responses. It also allows users to
+                    generate images using AI.
+
+                    The application combines frontend development,
+                    backend technologies, API integration and Firebase
+                    security features to deliver an interactive AI
+                    experience.
+                </p>
+
+                <div class="tech-icons">
+
+                    <i class="fab fa-html5" title="HTML"></i>
+                    <i class="fab fa-css3-alt" title="CSS"></i>
+                    <i class="fab fa-js" title="JavaScript"></i>
+                    <i class="fab fa-python" title="Python"></i>
+                    <i class="fas fa-bolt" title="FastAPI"></i>
+                    <i class="fas fa-fire" title="Firebase"></i>
+
+                </div>
+
+                <a href="https://jimmy-ai-frontend.onrender.com/index.html"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <i class="fas fa-external-link-alt"></i>
+                    Live Demo
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             7. JIMMY GRAPHIX SECTION
+        =========================================== -->
+
+        <section class="section" id="jimmy-graphix">
+
+            <p class="section-label">
+                MY CREATIVE BRAND
+            </p>
+
+            <h2>
+                JIMMY <span>GRAPHIX</span>
+            </h2>
+
+            <p>
+                Creativity meets design. I transform ideas into
+                beautiful visual experiences through thoughtful,
+                professional and eye-catching graphic designs.
+            </p>
+
+
+            <!-- BRAND INTRODUCTION -->
+
+            <div class="graphix-intro">
+
+                <div class="graphix-logo">
+
+                    <i class="fas fa-pen-nib"></i>
+
+                    <h3>JIMMY GRAPHIX</h3>
+
+                    <span>CREATIVITY • DESIGN • IMPACT</span>
+
+                </div>
+
+                <p>
+                    Jimmy Graphix is my creative design brand,
+                    focused on helping individuals, businesses
+                    and organisations communicate visually.
+
+                    From brand identities to promotional graphics,
+                    I create designs that help ideas stand out.
+                </p>
+
+            </div>
+
+
+            <!-- GRAPHIC DESIGN SERVICES -->
+
+            <div class="graphix-services">
+
+                <div class="graphix-service-card">
+
+                    <i class="fas fa-id-card"></i>
+
+                    <h3>Logo & Brand Identity</h3>
+
+                    <p>
+                        Unique logos and visual identities that
+                        give businesses a recognisable appearance.
+                    </p>
+
+                </div>
+
+
+                <div class="graphix-service-card">
+
+                    <i class="fas fa-image"></i>
+
+                    <h3>Flyers & Posters</h3>
+
+                    <p>
+                        Attractive promotional flyers and posters
+                        for events, businesses and special occasions.
+                    </p>
+
+                </div>
+
+
+                <div class="graphix-service-card">
+
+                    <i class="fas fa-hashtag"></i>
+
+                    <h3>Social Media Designs</h3>
+
+                    <p>
+                        Creative social media graphics designed
+                        to make your online presence stand out.
+                    </p>
+
+                </div>
+
+
+                <div class="graphix-service-card">
+
+                    <i class="fas fa-print"></i>
+
+                    <h3>Print & Promotional Designs</h3>
+
+                    <p>
+                        Business cards, banners, stickers,
+                        polo designs and other print materials.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- FUTURE DESIGN PORTFOLIO GALLERY -->
+
+            <div class="graphix-gallery">
+
+                <h3>
+                    My Design <span>Portfolio</span>
+                </h3>
+
+                <p>
+                    A showcase of my creative work will appear here.
+                    Design samples will be added as the gallery grows.
+                </p>
+
+                <div class="graphix-gallery-placeholder">
+
+                    <i class="fas fa-images"></i>
+
+                    <h4>Creative Works Coming Soon</h4>
+
+                    <p>
+                        My flyers, logos, branding projects
+                        and other graphic designs will be
+                        showcased here.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- GRAPHIC DESIGN CONTACT -->
+
+            <div class="graphix-contact">
+
+                <h3>
+                    Have a Design Project?
+                </h3>
+
+                <p>
+                    Let's bring your ideas to life.
+                    Contact Jimmy Graphix today.
+                </p>
+
+                <a href="https://wa.me/2349043261504"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="primary-btn">
+
+                    <i class="fab fa-whatsapp"></i>
+                    Hire Jimmy Graphix
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             8. CONTACT SECTION
+        =========================================== -->
+
+        <section class="section" id="contact">
+
+            <p class="section-label">
+                LET'S CONNECT
+            </p>
+
+            <h2>
+                Get In <span>Touch</span>
+            </h2>
+
+            <p>
+
+                Have a project idea, need a website, require
+                graphic design services or want to collaborate?
+
+                I'd be happy to hear from you.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <!-- WHATSAPP -->
+
+                <a href="https://wa.me/2349043261504"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="primary-btn">
+
+                    <i class="fab fa-whatsapp"></i>
+                    Chat With Me on WhatsApp
+
+                </a>
+
+
+                <!-- PHONE CALL -->
+
+                <a href="tel:+2349117565045"
+                    class="secondary-btn">
+
+                    <i class="fas fa-phone"></i>
+                    Call Me
+
+                </a>
+
+
+                <!-- GITHUB -->
+
+                <a href="https://github.com/praise1210"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="secondary-btn">
+
+                    <i class="fab fa-github"></i>
+                    GitHub
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==========================================
+         BACK TO TOP BUTTON
+    =========================================== -->
+
+    <button id="back-to-top"
+        class="back-to-top"
+        type="button"
+        aria-label="Back to top">
+
+        <i class="fas fa-arrow-up"></i>
+
+    </button>
+
+
+    <!-- ==========================================
+         9. FOOTER
+    =========================================== -->
+
+    <footer>
+
+        <p>
+            &copy; 2026 Jimmy Jarez. All Rights Reserved.
+        </p>
+
+        <p>
+            Software Developer | Graphic Designer
+        </p>
+
+        <p>
+            Jimmy Graphix - Creativity, Design & Impact.
+        </p>
+
+        <p>
+            Designed and developed with
+            <i class="fas fa-heart" style="color:#d6a84f;"></i>
+            by Jimmy Jarez.
+        </p>
+
+    </footer>
+
+
+    <!-- CUSTOM JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
